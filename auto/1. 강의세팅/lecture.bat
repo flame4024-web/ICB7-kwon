@@ -1,0 +1,1 @@
+@python "c:\ICB7\auto\1. 강의세팅\setup_lecture.py" %*

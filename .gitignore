@@ -1,0 +1,110 @@
+# ==========================================
+# Python
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ==========================================
+# Node.js
+# ==========================================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.eslintcache
+.node_repl_history
+.next/
+dist/
+build/
+out/
+
+# ==========================================
+# Data Files (큰 용량 또는 임시 데이터)
+# ==========================================
+*.csv
+*.json
+*.xlsx
+*.xls
+*.xlsm
+*.parquet
+*.db
+*.sqlite3
+*.h5
+*.pkl
+*.npy
+*.npz
+
+# ==========================================
+# Image Files
+# ==========================================
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.ico
+*.webp
+*.bmp
+*.tiff
+
+# ==========================================
+# OS & IDE Settings
+# ==========================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# ==========================================
+# Document Files
+# ==========================================
+*.pdf
+*.pptx
+*.docx
+*.doc
+*.hwp
+
+# ==========================================
+# Agents & Antigravity
+# ==========================================
+.agents/
+.gemini/
+.antigravity/
+.agent/
+_agents/
+_agent/
+
+# ==========================================
+# project exceptions
+# ==========================================
+!yes24/data/*.csv
+!yes24/images/*.png
+!project_1_8/data/*.csv
+!project_1_8/images/*.png
